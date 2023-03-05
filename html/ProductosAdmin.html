@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agurumi shop</title>
+    <script src="https://kit.fontawesome.com/3c934cb418.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../imagenes/Logo.png" alt="" id="logo">
+        </div>
+    </header>
+    <nav class="menuprincipal">
+        <div>
+            <ul class="listamenu">
+                <li><a href="Administradores.html"> Administradores</a></li>
+                <li><a href="Usuarios.html"> Usuarios</a></li>
+                <li><a href="ProductosAdmin.html"> Productos</a></li>
+                <li><a href="Categorias.html"> Categorías</a></li>
+                <li><a href="Pedidos.html"> Pedidos</a></li>
+                <li><a href="../index.html"> Cerrar sesión</a></li>
+            </ul>   
+       </div>
+<!-- Tabla Productos -->
+<main>
+<div id="main-container">
+    <br><h2 id="centrar"> Registro productos</h2><br>
+    <div class="select-tabla">
+        <select name="tablas">
+            <option value="">Animales</option>
+            <option value="">Personajes</option>
+            <option value="">Flores</option>
+            <option value="">Accesorios</option>
+          </select>
+    </div>
+<div class="tabla">
+    <a href="Agregar_Producto.html" id="agregar"><i class='bx bxs-user-plus'></i> Agregar</a><br><br>
+    <table>
+        <th>ID_Producto</th>
+        <th>Foto</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th colspan="2">Opciones</th>
+        <tr>
+            <td>0001</td>
+            <td ><img src="../imagenes/ajolote-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de ajolote con hilo de algodón de color rosa y gris</td>
+            <td>$130.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+            
+        </tr>
+        <tr>
+            <td>0002</td>
+            <td><img src="../imagenes/cerdo2-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de cerdo con hilo de algodón de color rosa  </td>
+            <td>$100.0</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0003</td>
+            <td><img src="../imagenes/jirafa-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de jirafa con hilo de algodón de color amarrilo, café y blanco</td>
+            <td>$150.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0004</td>
+            <td><img src="../imagenes/coraline2-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de Coraline con hilo de algodón de color amarrilo, azul y durazno</td>
+            <td>$200.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0005</td>
+            <td><img src="../imagenes/dragonnegro-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de dragón con hilo de algodón de color negro y verde</td>
+            <td>$120.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0006</td>
+            <td><img src="../imagenes/dragonblanco-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Figura de dragón con hilo de algodón de color  blanco  y azul</td>
+            <td>$120.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0007</td>
+            <td><img src="../imagenes/girasoles.jpg" alt="" id="foto"></td>
+            <td>Ramo de girasoles con hilo de algodón de color amarrilo y café</td>
+            <td>$160.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0008</td>
+            <td><img src="../imagenes/ramo-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Ramo de tulipanes con hilo de algodón de color rosa fucsia y claro</td>
+            <td>$190.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0009</td>
+            <td><img src="../imagenes/rosa-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>Ramo de rosas con hilo de algodón de color amarrilo, azul y verde</td>
+            <td>$90.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0010</td>
+            <td><img src="../imagenes/pulpos-removebg-preview.jpg" alt="" id="foto"></td> 
+            <td>Porta lápiz de pulpo con hilo de algodón de color rosa y azul</td>
+            <td>$250.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0011</td>
+            <td><img src="../imagenes/zorrito-removebg-preview.jpg" alt="" id="foto"></td>
+            <td>LLavero de zorro con hilo de algodón de color naranja, negro y blanco</td>
+            <td>$110.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+        <tr>
+            <td>0012</td>
+            <td><img src="../imagenes/zorro.jpg" alt="" id="foto"></td>
+            <td>Sonaja de zorro con hilo de algodón de color naranja, blanco y verde</td>
+            <td>$150.00</td>
+            <td><a href="" id="opciones"> <i class='bx bxs-edit'></i></td>
+            <td><a href="" id="opciones"><i class='bx bxs-trash-alt'></i></a></td> 
+        </tr>
+    </table>
+</main>
+</body>
+</html>

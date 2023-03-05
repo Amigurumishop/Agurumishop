@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agurumi shop</title>
+    <script src="https://kit.fontawesome.com/3c934cb418.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../imagenes/Logo.png" alt="" id="logo">
+        </div>
+    </header>
+    <nav class="menuprincipal">
+        <div>
+            <ul class="listamenu">
+                <li><a href="Administradores.html"> Administradores</a></li>
+                <li><a href="Usuarios.html"> Usuarios</a></li>
+                <li><a href="ProductosAdmin.html"> Productos</a></li>
+                <li><a href="Categorias.html"> Categorías</a></li>
+                <li><a href="Pedidos.html"> Pedidos</a></li>
+                <li><a href="../index.html"> Cerrar sesión</a></li>   
+           </ul>   
+       </div>
+<!-- Formulario AGG PRODUCTO -->
+<main class="agg-categoria">
+    <form class="form2" action="" method="post" enctype="multipart/form-data">
+        <div class="logoProd">
+            <img src="../imagenes/Logo.jpeg">
+        </div>
+        <h2 class="form_titulo">Agregar Producto</h2>
+        <div class= "form_cont">
+             <div class="form_grupo">
+                <input type="text" class="form_input" name="nomProducto">
+                <label for="nomProducto" class="form_label">Descripción *</label>
+                <span class="form_line" > </span>
+            </div>
+             <div class="form_grupo">
+                <input type="number" class="form_input" name="precio">
+                <label for="precio" class="form_label">Precio *</label>
+                <span class="form_line"> </span>
+            </div>
+            <div class="form_grupo">
+                <input type="file" class="form_input" name="img">
+                <label for="img" class="form_label">Imagen *</label>
+                <span class="form_line"> </span>
+            </div>
+            <div class="button">
+            <input type="submit" name="opcion" value="Ingresar">
+            <a class="boton_personalizado" href="ProductosAdmin.html">Cancelar</a>
+            </div>
+        </div>
+    </form>
+</main>
+</body>
+</html>
